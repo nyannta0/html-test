@@ -1,0 +1,36 @@
+@media all and (max-width: 680px) {
+	.header-list li{
+		display: none;
+	}
+
+	.container {
+	padding:0 15px;
+	width: 100%;
+	margin: 0 auto;
+	}
+
+	.contents .content{
+	margin:40px auto;
+	max-width: 500px;
+	width:100%;
+	}
+
+	.contents{
+	padding: 25px;
+	text-align: center;
+	}
+
+	.fa.menu-icon{
+		display: block;
+	}
+}
+
+@media all and (max-width: 1030px){
+	.content{
+	float:left;
+	width: 45%;
+	margin:25px 10px;
+	text-align: center;
+	position:relative;
+	}
+}
